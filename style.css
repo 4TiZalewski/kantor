@@ -1,0 +1,117 @@
+:root {
+    --background-color: rgb(65, 64, 64);
+    --font-color: white;
+    --default-font-famity: Arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.container {
+    min-width: 100wh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > fieldset {
+    max-width: 700px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1,
+h2,
+h4,
+p,
+label,
+legend {
+    font-family: var(--default-font-famity);
+}
+
+fieldset {
+    border-radius: 1rem;
+}
+
+main {
+    display: flex;
+}
+
+main > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+main > article > h2 {
+    color: limegreen;
+}
+
+main > aside,
+main > aside > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > aside > form > * {
+    margin: 0.3rem;
+}
+
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > fieldset > * {
+    margin: 0.5rem;
+}
+
+input[type="text"] {
+    width: 3rem;
+}
+
+input[type="button"] {
+    padding: 0.3rem;
+}
+
+label {
+    display: inline;
+    white-space: nowrap;
+}
+
+.sum-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sum {
+    color: limegreen;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}

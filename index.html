@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <nav>
+                <h1>KANTOR WALUT</h1>
+            </nav>
+            <main>
+                <article>
+                    <h2>Kantor</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus sint, eligendi illo dolor eius eos veniam nam repudiandae? Magnam sed tempore sint quos expedita, eaque fuga est magni reiciendis ab eligendi delectus mollitia obcaecati eveniet. Esse quae, nobis accusamus suscipit, ducimus velit alias tenetur, blanditiis perspiciatis dolores nisi facere optio. Velit ullam quisquam enim maxime magnam molestias, exercitationem dolorem, atque sapiente placeat veniam sed autem ipsa dolores nihil voluptas dolor minus. Saepe et sequi error reiciendis aperiam assumenda, alias deleniti doloribus accusamus cupiditate, quis repellat voluptas eligendi provident possimus! Voluptatem consequatur nesciunt modi officia consectetur sint, doloribus placeat debitis suscipit tenetur in soluta, fuga quis expedita, maiores ipsa odio dolorem rem id ex earum ea eligendi inventore. Molestias unde pariatur expedita dolorum, aperiam nemo quam corrupti ut tenetur illum adipisci debitis dignissimos officia dolores veniam assumenda, autem impedit maxime saepe aut perferendis itaque aliquam excepturi! Obcaecati distinctio labore explicabo est maiores consequuntur sed ducimus tempore facilis, temporibus facere qui, reprehenderit repellendus? Voluptatem suscipit iure similique accusamus quod atque praesentium voluptate quaerat laboriosam natus iusto eos, voluptatibus, vitae ducimus ratione quidem? Enim velit itaque tempore. Error et ipsum, architecto quam exercitationem eaque minima sed, repudiandae placeat qui, sequi aut reprehenderit atque ducimus soluta dolore illo impedit sunt fuga inventore. Minima delectus eum dicta natus fugiat accusantium labore magnam illo iure quas, deserunt placeat dolorem ad. Placeat alias ipsam quasi nisi maiores in? Quos recusandae officia adipisci harum debitis. Provident quos soluta reiciendis aspernatur nam.
+                    </p>
+                </article>
+                <aside>
+                    <form action="#">
+                        <fieldset>
+                            <legend>Bilon</legend>
+                            <label for="bilon-ilosc">
+                                ilość:
+                                <input type="text" name="bilon-ilosc" id="bilon-ilosc">
+                            </label>
+                            <label for="bilon-przelicznik">
+                                przelicznik monety:
+                                <input type="text" name="bilon-przelicznik" id="bilon-przelicznik">
+                            </label>
+                            <div class="sum-wrapper">
+                                <h4>Wartość bilonu:</h4>
+                                <h4 class="sum bilon-sum"></h4>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Banknoty</legend>
+                            <label for="banknoty-ilosc">
+                                ilość:
+                                <input type="text" name="banknoty-ilosc" id="banknoty-ilosc">
+                            </label>
+                            <label for="banknoty-przelicznik">
+                                przelicznik banknotów:
+                                <input type="text" name="banknoty-przelicznik" id="banknoty-przelicznik">
+                            </label>
+                            <div class="sum-wrapper">
+                                <h4>Wartość banknotów:</h4>
+                                <h4 class="sum banknoty-sum"></h4>
+                            </div>
+                        </fieldset>
+                        <input type="button" id="calculate-button" value="Przelicz">
+                        <div class="sum-wrapper">
+                            <h4>Wartość twoich środków:</h4>
+                            <h4 class="sum overall-sum"></h4>
+                        </div>
+                    </form>
+                </aside>
+            </main>
+            <footer>
+                <p>© Szymzal</p>
+            </footer>
+        </fieldset>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
